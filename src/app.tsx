@@ -1,6 +1,6 @@
 import React from "react";
-import { HomePage } from "./component/homePage";
+import { RouterComponent } from "./core/routes/router.component";
 
 export const App: React.FC = () => {
-  return <HomePage />;
+  return <RouterComponent />;
 };
